@@ -320,6 +320,7 @@
 		-o-transition: 0;
 		-ms-transition: 0;
 		transition: 0;
+	}
 
 	input[type="checkbox"] { display: inline; }
 

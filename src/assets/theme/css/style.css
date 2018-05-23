@@ -1895,10 +1895,11 @@ img.mfp-img {
 	cursor: pointer;
 }
 
-.notification.success .close {background: url(../images/alert_boxes_close_ico.png) 0 -8px no-repeat;}
+/*.notification.success .close {background: url(../images/alert_boxes_close_ico.png) 0 -8px no-repeat;}
 .notification.error .close {background: url(../images/alert_boxes_close_ico.png) 0 0 no-repeat;}
 .notification.warning .close {background: url(../images/alert_boxes_close_ico.png) 0 -16px no-repeat;}
 .notification.notice .close {background: url(../images/alert_boxes_close_ico.png) 0 -24px no-repeat;}
+*/
 
 
 .notification.notice p span i { font-weight: 500; }
@@ -3481,7 +3482,7 @@ li .job-spotlight p { line-height: 27px; }
 	padding: 0;
 	max-height: 640px !important;
 	overflow: hidden;
-	background-image:url(../images/loader.gif);
+	/*background-image:url(../images/loader.gif);*/
 	background-repeat: no-repeat;
 	background-position: 50%;
 	margin-bottom: 42px;
@@ -3659,7 +3660,7 @@ li .job-spotlight p { line-height: 27px; }
 	visibility:hidden;
 }
 
-.tp-transparentimg {content:"url(../assets/transparent.png)"}
+/*.tp-transparentimg {content:"url(../assets/transparent.png)"}*/
 .tp-3d {-webkit-transform-style: preserve-3d;-webkit-transform-origin: 50% 50%;}
 
 

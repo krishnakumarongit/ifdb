@@ -24,24 +24,24 @@
             ],
             "styles": [
               "src/styles.css",
-              "assets/theme/css/style.css",
-              "assets/theme/css/colors/green.css"
+              "src/assets/theme/css/style.css",
+              "src/assets/theme/css/colors/green.css"
             ],
             "scripts": [
-		"assets/theme/scripts/jquery.js",
-		"assets/theme/scripts/custom.js",
-		"assets/theme/scripts/jquery.superfish.js",
-		"assets/theme/scripts/jquery.themepunch.tools.min.js",
-		"assets/theme/scripts/jquery.themepunch.revolution.min.js",
-		"assets/theme/scripts/jquery.themepunch.showbizpro.min.js",
-		"assets/theme/scripts/jquery.flexslider-min.js",
-		"assets/theme/scripts/chosen.jquery.min.js",
-		"assets/theme/scripts/jquery.magnific-popup.min.js",
-		"assets/theme/scripts/waypoints.min.js",
-		"assets/theme/scripts/jquery.counterup.min.js",
-		"assets/theme/scripts/jquery.jpanelmenu.js",
-		"assets/theme/scripts/stacktable.js",
-		"assets/theme/scripts/headroom.min.js"
+		"src/assets/theme/scripts/jquery.js",
+		"src/assets/theme/scripts/custom.js",
+		"src/assets/theme/scripts/jquery.superfish.js",
+		"src/assets/theme/scripts/jquery.themepunch.tools.min.js",
+		"src/assets/theme/scripts/jquery.themepunch.revolution.min.js",
+		"src/assets/theme/scripts/jquery.themepunch.showbizpro.min.js",
+		"src/assets/theme/scripts/jquery.flexslider-min.js",
+		"src/assets/theme/scripts/chosen.jquery.min.js",
+		"src/assets/theme/scripts/jquery.magnific-popup.min.js",
+		"src/assets/theme/scripts/waypoints.min.js",
+		"src/assets/theme/scripts/jquery.counterup.min.js",
+		"src/assets/theme/scripts/jquery.jpanelmenu.js",
+		"src/assets/theme/scripts/stacktable.js",
+		"src/assets/theme/scripts/headroom.min.js"
 	    ]
           },
           "configurations": {
