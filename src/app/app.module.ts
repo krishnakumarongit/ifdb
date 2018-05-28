@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { HttpModule } from '@angular/http';
+import { ReactiveFormsModule } from '@angular/forms';  // <-- #1 import module
+
 
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
@@ -20,7 +22,7 @@ const appRoutes: Routes = [
        component: AuthComponent,
        children: [ 
 	             {
-     		        path: 'register',
+     		        path: 'sign-up',
 		        component: RegisterComponent
 	             },
 		     {
@@ -43,6 +45,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpModule,
+    ReactiveFormsModule,
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true }

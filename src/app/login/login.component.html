@@ -1,3 +1,67 @@
-<p>
-  login works!
-</p>
+<div id="titlebar" class="single">
+	<div class="container">
+
+		<div class="sixteen columns">
+			<h2>Log In</h2>
+			<nav id="breadcrumbs">
+				<ul>
+					<li>You are here:</li>
+					<li><a href="#">Home</a></li>
+					<li>Log In</li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+
+	<div class="my-account">
+
+		
+
+		<div class="tabs-container">
+			<!-- Login -->
+			<div class="tab-content" id="tab1">
+				<form  [formGroup]="loginForm" class="login">
+
+					<p class="form-row form-row-wide">
+						<label for="username">Name:
+							<i class="ln ln-icon-Male"></i>
+							<input class="input-text" name="name" id="name" formControlName="name" />
+						</label>
+					</p>
+
+					<p class="form-row form-row-wide">
+						<label for="username">Email:
+							<i class="ln ln-icon-Male"></i>
+							<input class="input-text" name="email" id="email" formControlName="email" />
+						</label>
+					</p>
+
+					<p class="form-row form-row-wide">
+						<label for="password">Password:
+							<i class="ln ln-icon-Lock-2"></i>
+							<input class="input-text" formControlName="password" type="password" name="password" id="password"/>
+						</label>
+					</p>
+
+					<p class="form-row">
+						<input type="submit" class="button border fw margin-top-10" name="login" value="Login" />
+
+						<label for="rememberme" class="rememberme">
+						<input name="rememberme" type="checkbox" id="rememberme" value="forever" /> Remember Me</label>
+					</p>
+
+					<p class="lost_password">
+						<a href="#" >Lost Your Password?</a>
+					</p>
+					
+				</form>
+			</div>
+
+			<!-- Register -->
+
+		</div>
+	</div>
+</div>

@@ -1,3 +1,73 @@
-<p>
-  register works!
-</p>
+<div id="titlebar" class="single">
+	<div class="container">
+
+		<div class="sixteen columns">
+			<h2>Sign Up</h2>
+			<nav id="breadcrumbs">
+				<ul>
+					<li>You are here:</li>
+					<li><a href="#">Home</a></li>
+					<li>Sign Up</li>
+				</ul>
+			</nav>
+		</div>
+
+	</div>
+</div>
+<div class="container">
+
+	<div class="my-account">
+
+		
+
+		<div class="tabs-container">
+		
+
+			<!-- Register -->
+			<div class="tab-content" id="tab2" >
+
+				<form  [formGroup]="loginForm" class="login">
+
+					<p class="form-row form-row-wide">
+						<label for="username">Name:
+							<i class="ln ln-icon-Male"></i>
+							<input class="input-text" type="text" name="name" id="name" formControlName="name" required />
+						</label>
+     					<label *ngIf="loginForm.controls['name'].invalid && (loginForm.controls['name'].dirty || loginForm.controls['name'].touched)" class="alert alert-danger">
+						<label *ngIf="loginForm.controls['name'].errors.required">
+							Name is required.
+						</label>
+						<label *ngIf="loginForm.controls['name'].errors.minlength">
+							Name must be at least 4 characters long.
+						</label>
+						</label>
+					</p>
+
+					<p class="form-row form-row-wide">
+						<label for="username">Email:
+							<i class="ln ln-icon-Email"></i>
+							<input class="input-text" type="text" name="email" id="email" formControlName="email" />
+						</label>
+					</p>
+
+					<p class="form-row form-row-wide">
+						<label for="password">Password:
+							<i class="ln ln-icon-Lock-2"></i>
+							<input class="input-text" formControlName="password" type="password" name="password" id="password"/>
+						</label>
+					</p>
+
+				<p class="form-row form-row-wide">
+					<label for="password2">Repeat Password:
+						<i class="ln ln-icon-Lock-2"></i>
+						<input class="input-text" formControlName="cpassword" type="password" name="cpassword2" id="password2"/>
+					</label>
+				</p>
+				<p class="form-row">
+					<input type="submit" class="button border fw margin-top-10" name="register" value="Register" />
+				</p>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
